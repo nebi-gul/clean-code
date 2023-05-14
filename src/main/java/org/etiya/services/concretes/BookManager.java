@@ -21,7 +21,7 @@ public class BookManager implements BookService {
     public void add(Book entity) {
 
         bookRepository.add(entity);
-        System.out.println("Author eklendi.");
+        System.out.println("Book eklendi.");
 
     }
 
